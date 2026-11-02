@@ -1,0 +1,11 @@
+/* footer: 4 columns + legal links */
+.foot{grid-template-columns:1.5fr 1fr 1fr 1fr}
+.legal-links{margin-top:10px}
+.legal-links a{color:var(--mute)}.legal-links a:hover{color:var(--p2)}
+@media(max-width:980px){.foot{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.foot{grid-template-columns:1fr}}
+
+
+.foot__contact{list-style:none;margin-top:16px;display:grid;gap:8px;color:var(--mute);font-size:.94rem}
+.foot__contact a{display:inline;margin:0}
+.foot__contact li{display:flex;align-items:center;gap:10px}

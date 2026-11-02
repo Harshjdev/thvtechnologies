@@ -1,0 +1,16 @@
+@import './styles/variables.css';
+@import './styles/base.css';
+@import './styles/navbar.css';
+@import './styles/buttons.css';
+@import './styles/hero.css';
+@import './styles/sections.css';
+@import './styles/portfolio.css';
+@import './styles/process-faq.css';
+@import './styles/contact.css';
+@import './styles/footer.css';
+@import './styles/reveal.css';
+@import './styles/responsive.css';
+@import './styles/extras.css';
+@import './styles/legal.css';
+@import './styles/footer-legal.css';
+@import './styles/portfolio-shots.css';

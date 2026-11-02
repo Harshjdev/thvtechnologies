@@ -1,0 +1,24 @@
+/* extra sections */
+.stack{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.stack>div{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px;transition:.3s}
+.stack>div:hover{border-color:var(--p2);transform:translateY(-5px)}
+.stack h4{color:var(--p2);margin-bottom:8px}
+.stack p{color:var(--mute);font-size:.94rem}
+.plan{display:flex;flex-direction:column;position:relative}
+.plan .ticks{margin:18px 0 26px;flex:1}
+.plan .btn{text-align:center}
+.tagline{margin-bottom:0}
+.featured{border-color:var(--p);box-shadow:0 20px 50px -25px var(--p)}
+.badge{position:absolute;top:-13px;right:20px;background:var(--grad);padding:4px 14px;border-radius:99px;font-size:.78rem;font-weight:600}
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.member{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px 20px;transition:.3s}
+.member:hover{transform:translateY(-6px);border-color:var(--p)}
+.avatar{width:84px;height:84px;margin:0 auto 14px;border-radius:50%;background:var(--grad);display:grid;place-items:center;font:700 2rem "Space Grotesk"}
+.member small{color:var(--mute)}
+.meta{color:var(--p2);font-weight:600}
+.more{display:inline-block;margin-top:14px;color:var(--p2);font-weight:600}
+.wa{position:fixed;right:20px;bottom:20px;width:56px;height:56px;border-radius:50%;background:#25d366;display:grid;place-items:center;font-size:1.6rem;z-index:60;box-shadow:0 10px 30px rgba(37,211,102,.5);transition:.25s}
+.wa:hover{transform:scale(1.1)}
+@media(max-width:980px){.stack{grid-template-columns:1fr 1fr}.team{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.stack,.team{grid-template-columns:1fr}}
+

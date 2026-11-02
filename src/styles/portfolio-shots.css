@@ -1,0 +1,12 @@
+/* real logo + portfolio screenshots */
+.logo__img{width:34px;height:34px;border-radius:10px;display:block}
+.work__img.shot{display:block;padding:0;height:210px;background:#0b1020}
+.work__img.shot::after{display:none}
+.work__img.shot img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform 4s ease}
+.work:hover .work__img.shot img{transform:scale(1.08)}
+.work__img.shot em{position:absolute;right:12px;bottom:12px;font-style:normal;font-size:.8rem;font-weight:600;background:rgba(7,11,23,.85);padding:6px 12px;border-radius:99px;opacity:0;transition:.3s;z-index:2}
+.work:hover .work__img.shot em{opacity:1}
+.work__img.phone{height:210px;align-items:end}
+.work__img.phone img{height:92%;width:auto;max-width:60%;object-fit:cover;object-position:top;border-radius:18px 18px 0 0;border:4px solid #0b1020;border-bottom:0;box-shadow:0 10px 30px rgba(0,0,0,.4);z-index:1;margin-top:18px}
+.work__body .more{margin-top:14px}
+.work:hover .work__img.phone img{transform:translateY(-4px)}

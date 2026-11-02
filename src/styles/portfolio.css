@@ -1,0 +1,19 @@
+/* portfolio */
+.filters{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:40px}
+.filters button{padding:9px 20px;border-radius:99px;border:1px solid var(--line);background:transparent;color:var(--mute);cursor:pointer;font:inherit;transition:.25s}
+.filters button.on,.filters button:hover{background:var(--grad);color:#fff;border-color:transparent}
+.works{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.work{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:.35s}
+.work.hide{display:none}
+.work:hover{transform:translateY(-8px);box-shadow:0 24px 50px -20px #000;border-color:var(--p)}
+.work__img{height:190px;background:var(--g);display:grid;place-items:center;position:relative;overflow:hidden}
+.work__img::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 0,rgba(255,255,255,.35),transparent 55%)}
+.work__img span{font-size:4.2rem;z-index:1;transition:.4s}
+.work:hover .work__img span{transform:scale(1.25) rotate(-6deg)}
+.work__body{padding:22px}
+.work__body small{color:var(--p2);font-weight:600}
+.work__body h3{margin:6px 0;font-size:1.2rem}
+.work__body p{color:var(--mute);font-size:.92rem}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
+.tags i{font-style:normal;font-size:.75rem;padding:4px 11px;border-radius:99px;background:rgba(255,255,255,.06);color:var(--mute)}
+
