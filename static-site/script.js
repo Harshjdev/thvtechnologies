@@ -30,15 +30,6 @@ document.querySelectorAll('[data-count]').forEach(n => {
   step();
 });
 
-// portfolio filter
-const filters = document.getElementById('filters');
-filters.onclick = e => {
-  const b = e.target.closest('button'); if (!b) return;
-  filters.querySelector('.on').classList.remove('on'); b.classList.add('on');
-  document.querySelectorAll('.work').forEach(w =>
-    w.classList.toggle('hide', b.dataset.f !== 'all' && w.dataset.c !== b.dataset.f));
-};
-
 // contact form (front-end only: connect to your backend / email service)
 document.getElementById('form').onsubmit = e => {
   e.preventDefault();

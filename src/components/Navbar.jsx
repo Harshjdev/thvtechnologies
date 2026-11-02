@@ -24,7 +24,7 @@ export default function Navbar() {
         <Logo />
         <nav className={`menu${open ? ' open' : ''}`}>
           {NAV_LINKS.map((l) => (
-            <Link key={l.hash} to={{ pathname: '/', hash: `#${l.hash}` }} onClick={close}>
+            <Link key={l.label} to={l.to ?? { pathname: '/', hash: `#${l.hash}` }} onClick={close}>
               {l.label}
             </Link>
           ))}

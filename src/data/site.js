@@ -5,6 +5,7 @@ export const NAV_LINKS = [
   { label: 'Why Us', hash: 'why' },
   { label: 'Pricing', hash: 'pricing' },
   { label: 'FAQ', hash: 'faq' },
+  { label: 'Blogs', to: '/blog' },
 ]
 
 export const TYPED_WORDS = ['websites', 'web apps', 'mobile apps', 'brands', 'UI/UX designs']
@@ -51,49 +52,20 @@ export const WHY_US = [
   { icon: '🤝', title: 'Long-Term Partnership', text: 'Ongoing support, upgrades and growth marketing long after launch day.' },
 ]
 
-export const PORTFOLIO_FILTERS = [
-  { id: 'all', label: 'All' },
-  { id: 'web', label: 'Websites' },
-  { id: 'app', label: 'Mobile Apps' },
-]
-
 export const PORTFOLIO = [
   {
-    category: 'web', type: 'shot', image: 'thedealsmart.jpg', name: 'The Deals Smart',
-    kind: 'Website · E-commerce · UAE',
-    desc: 'Online electronics store with categories, deals, bilingual (English/Arabic) support and WhatsApp chat.',
-    tags: ['E-commerce', 'Arabic RTL', 'Cart & Checkout'],
-    links: [{ label: 'Visit thedealsmart.ae', url: 'https://thedealsmart.ae' }],
+    type: 'shot', image: 'debteaser.jpg', name: 'DebtEase Relief',
+    kind: 'Website · Finance · USA',
+    desc: 'Debt relief lead-generation website with an interactive savings calculator, qualification form and click-to-call support.',
+    tags: ['Lead Generation', 'Calculator', 'Responsive'],
+    links: [{ label: 'Visit debteaserelif.com', url: 'https://debteaserelif.com/' }],
   },
   {
-    category: 'web', type: 'shot', image: 'rareearth.jpg', name: 'Rare Earth',
-    kind: 'Website · Industrial · India',
-    desc: 'Corporate website with product catalogue, e-catalogue and enquiry flow for a conveyor belt manufacturer.',
-    tags: ['Corporate', 'Catalogue', 'Responsive'],
-    links: [{ label: 'Visit rareearth.in', url: 'https://rareearth.in' }],
-  },
-  {
-    category: 'web', type: 'shot', image: 'onlinebauji.jpg', name: 'Online Bauji',
-    kind: 'Web Platform · EdTech · India',
-    desc: 'Skill-based e-learning platform with course catalogue, search, login, cart and blog.',
-    tags: ['E-learning', 'Courses', 'Payments'],
-    links: [{ label: 'Visit onlinebauji.com', url: 'https://onlinebauji.com/' }],
-  },
-  {
-    category: 'app', type: 'phone', image: 'mypotes1.jpg', name: 'MyPotes',
-    kind: 'Mobile App · iOS · Productivity',
-    desc: 'AI-based personal organizer to manage contacts, notes, reminders and memories in one place.',
-    tags: ['iOS', 'AI', 'Notes & Reminders'],
-    background: 'linear-gradient(135deg,#14b8a6,#0ea5e9)',
-    links: [{ label: 'View on App Store', url: 'https://apps.apple.com/in/app/mypotes/id6753738767' }],
-  },
-  {
-    category: 'app', type: 'phone', image: 'tg_shot1.jpg', name: 'Trading Gurukul',
-    kind: 'Mobile App · Android · EdTech',
-    desc: 'Learning app with courses, categories, blog and user accounts for trading and skill education.',
-    tags: ['Android', 'React Native', 'Courses'],
-    background: 'linear-gradient(135deg,#22c55e,#0f172a)',
-    links: [{ label: 'View on Google Play', url: 'https://play.google.com/store/apps/details?id=com.anonymous.tradinggurukul' }],
+    type: 'shot', image: 'buzznest.jpg', name: 'Buzznest Media',
+    kind: 'Website · Marketing Agency · India',
+    desc: 'Bold, animated agency website for a social media marketing studio with services, work showcase and light/dark theme.',
+    tags: ['Agency', 'Animations', 'Dark Mode'],
+    links: [{ label: 'Visit buzznestmedia.com', url: 'https://buzznestmedia.com/' }],
   },
 ]
 
